@@ -13,15 +13,15 @@ public class Payment {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer payment_id;
+    private Integer paymentId;
 
-    private Integer customer_id;
+    private Integer customerId;
 
-    private Integer staff_id;
+    private Integer staffId;
 
     private Double amount;
 
-    private Instant payment_date;
+    private Instant paymentDate;
 
-    private Instant last_update;
+    private Instant lastUpdate;
 }
